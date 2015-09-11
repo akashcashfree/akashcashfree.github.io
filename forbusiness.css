@@ -1,0 +1,361 @@
+.active {
+    border-bottom: 2px solid #7fcba9;
+    color: ##b2aeb3 !important;
+}
+.headerForBusiness {
+	background: url("images/forBuniessBanner.jpg") no-repeat scroll 0 0%, #2d2e42 none repeat scroll 0 0;
+	height: 720px;
+	overflow: hidden;
+	width: 100%; background-size:cover;
+}
+ul.forBusNav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+ul.forBusNav li {
+    background: rgba(0, 0, 0, 0) url("images/greenCircleTrans.png") no-repeat scroll 1px 6px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    padding: 3px 25px;
+}
+.forBuniessBox {
+	margin: 152px auto;
+	width: 100%;
+	text-align: center
+}
+.dropUs {
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+.dropUs h3, p {
+	font-size: 19px;
+	color: #666;
+	text-align: left
+}
+
+.dropUs h3 {
+	font-size: 35px;
+	padding: 80px 0 14px 0;
+}
+.formField {
+	border-radius: 4px;
+	margin: 40px auto;
+	max-width: 888px;
+}
+.tab-group {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+.tab-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.tab-group li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	background: rgba(160, 179, 176, 0.25);
+	color: #a0b3b0;
+	font-size: 20px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+}
+.tab-group li a:hover {
+	background: #002060;
+	color: #ffffff;
+}
+.tab-group .active a {
+	background: #f6511e;
+	color: #ffffff;
+}
+.tab-content > div:last-child {
+	display: none;
+}
+h1 {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 300;
+	margin: 0 0 40px;
+}
+label {
+	color: #575757;
+	font-size: 22px;
+	font-style: italic;
+	left: 13px;
+	pointer-events: none;
+	position: absolute;
+	transform: translateY(6px);
+	transition: all 0.25s ease 0s;
+}
+label .req {
+	margin: 2px;
+	color: #f6511e;
+}
+label.active {
+	-webkit-transform: translateY(50px);
+	-ms-transform: translateY(50px);
+	transform: translateY(50px);
+	left: 2px;
+	font-size: 14px;
+}
+label.active .req {
+	opacity: 0;
+}
+label.highlight {
+	color: #000;
+}
+.formField input, textarea {
+	font-size: 22px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5px 10px;
+	background: none;
+	background-image: none;
+	border-bottom: 1px solid #a0b3b0;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #575757;
+	border-radius: 0;
+	-webkit-transition: border-color .25s ease, box-shadow .25s ease;
+	transition: border-color .25s ease, box-shadow .25s ease;
+}
+.formField input:focus, textarea:focus {
+	outline: 0;
+	border-color: #1ab188;
+}
+textarea {
+	border: 2px solid #a0b3b0;
+	resize: vertical;
+}
+.field-wrap {
+	position: relative;
+	margin-bottom: 40px;
+}
+.top-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.top-row > div {
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+}
+.top-row > div:last-child {
+	margin: 0;
+}
+.button {
+	background: #81c998 none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 35px;
+	color: #fff;
+	font-size: 20px;
+	height: 55px;
+	margin: 0 auto;
+	width: 28%;
+}
+.button:hover, .button:focus {
+	background: #179b77;
+}
+.button-block {
+	display: block;
+}
+.forgot {
+	margin-top: -20px;
+	text-align: right;
+}
+.pinkBox {
+	background: #e2786a;
+	width: 100%;
+	clear: both
+}
+.pinkBoxCenter {
+	width: 900px;
+	margin: 85px auto;
+	overflow: hidden
+}
+.popUp, .popUpBtm {
+	background-color: rgb(232,147,136);
+	height: 249px;
+	width: 445px;
+	float: left;
+	margin-bottom: 7px;
+	margin-right: 7px;
+}
+.popUpBtm {
+	width: 100% !important;
+}
+.popUp:hover {
+	height: 269px;
+	width: 465px;
+	background: #FFF
+}
+.popUp, .popUpBtm {
+	background-color: rgb(232,147,136);
+	height: 249px;
+	width: 445px;
+	float: left;
+	margin-bottom: 7px;
+	margin-right: 7px;
+}
+.popUpBtm {
+	height: 212px;
+	width: 100% !important;
+}
+.container {
+	clear:both;
+}
+.cs-style-1 figcaption.bigBox {
+	height: 177px !important;
+	left: -10px;
+	top: -20px;
+	width: 100% !important;
+	color: #656262;
+}
+.popUp a img, .popUpBtm a img {
+	float: left;
+	padding: 30px;
+}
+.popUp h3, .popUpBtm h3 {
+	color: #fff;
+	float: left;
+	font-size: 28px;
+	line-height: 34px;
+	margin: 22px 0 0 !important;
+	padding: 0;
+	width: 74%;
+}
+.popUpBtm span, .bigBox span {
+	margin: 20px 0 0 4px !important;
+}
+.popUp span, .popUpBtm span {
+	color: #fff;
+	display: block;
+	float: left;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 12px 0 0 95px;
+	width: 62%;
+}
+.marRiteNone {
+	margin-right: 0 !important
+}
+ @media all and (min-width:100px) and (max-width: 480px) {
+	 .forBuniessBox h3 { line-height:23px !important}
+	 ul.forBusNav li { padding:3px 16px;}
+	 ul.forBusNav { width:100%;}
+.headerForBusiness, .forBuniessBox img,  .pinkBox, .container, .grid li, .popUp, .bigBox, .popUpBtm {
+	width: 100% !important;
+	height: auto !important;
+}
+.button, .button-block {
+	width: 60%;
+	border-radius: 26px
+}
+.formField input, textarea {
+	width: 90%
+}
+.grid {
+	padding: 0 !important
+}
+.popUp h3, .popUpBtm h3, .grid figcaption span {
+	width: 98%;
+	text-align: center;
+	padding: 0;
+	margin: 0 !important
+}
+.grid figure img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.popUp span, .popUpBtm span, .grid figcaption span {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	width: 96% !important;
+}
+.grid figcaption {
+	height: auto !important;
+	max-width: 100% !important;
+	top: 0 !important
+}
+.cs-style-1 figcaption.bigBox {
+	height: auto !important
+}
+.grid figcaption img {
+	display: block;
+	margin: 0 auto
+}
+.grid figcaption h3 {
+	padding: 0;
+	text-align: center;
+	width: 90% !important;
+}
+.cs-style-1 figcaption a {
+	display: block !important;
+	float: none !important;
+	margin: 0 auto;
+}
+.forBuniessBox { margin:13px 0}
+ @media all and (min-width:481px) and (max-width: 800px) {
+
+ .headerForBusiness, .forBuniessBox img, .pinkBox, .container,  .bigBox {
+width:100% !important;
+height:auto !important;
+}
+.forBuniessBox { margin:13px 0}
+
+ .button {
+width:26%;
+border-radius:30px;
+}
+ .grid {
+padding:0 !important
+}
+
+ .popUp h3, .popUpBtm h3 {
+width:100%;
+text-align:center;
+padding:0px;
+margin:0 !important
+}
+ .grid figure img {
+display: block;
+float: none;
+margin: 0 auto;
+max-width: 100%;
+}
+.popUp span, .popUpBtm span {
+margin: 0;
+padding: 20px 0;
+text-align: center;
+width: 100%;
+}
+ .grid figcaption {
+ height: auto !important;
+ max-width: 100% !important;
+top:0 !important
+}
+.cs-style-1 figcaption.bigBox {
+height:auto !important
+}
+.cs-style-1 figcaption h3 {
+ margin-top: 70px;
+ text-align: center;
+ width: 89%;
+}
+}

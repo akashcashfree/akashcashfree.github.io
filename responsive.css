@@ -1,0 +1,325 @@
+@charset "utf-8";
+@media all and (min-width:100px) and (max-width: 480px) {
+	.socialIcons a img {
+    float: left;
+    height: auto;
+    width: 45%; max-width:195px;
+}
+
+.pinkResp { max-width:236px; margin:10% auto; padding-top:10% !important}
+	.processResp { width:100%; height:auto; max-width:210px; margin:0 auto}
+	.logaNavBox { margin-top:20px;}
+	.google{ width:44% !important}
+	.store{ width:100%;}
+	.hide { display:none !important}
+	.small {
+    float: left;
+    height: auto;
+    width: 45%;
+}
+	.form { margin:10% 0}
+	.middlePart > img {
+    display: block;
+    margin: 0 auto; width:100%
+}
+	.respp { height:auto; width:100%; max-width:58px;}
+	.respTick{ height:auto; width:100%; max-width:55px;}
+.respImg {
+	width: 100%;
+	height: auto;
+}
+.headerCenterPart { margin-top:10px}
+.wrapper, .mainPart, .header, .headerCenterPart, .nav, .formBox, .form, .middlePart, .logaNavBox, .secureResp{
+	box-sizing: border-box;
+	height: auto;
+	padding: 0 5px;
+	width: 100%;
+}
+.wrapper, .mainPart { padding:0 !important}
+.resplogo {
+    display: block;
+    margin: 0 auto 0 3%;
+}
+.headerImg {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+ul.nav li {
+	background: #81c99b none repeat scroll 0 0;
+	display: block;
+	margin: 1% 0;
+	text-align: center;
+}
+ul.nav li a:hover {
+	background: #e2786a none repeat scroll 0 0;
+	color: #000;
+	opacity: 9;
+}
+.formBox {
+	margin-top: 10%;
+}
+
+.formBox h2 {
+    font-size: 179%;
+    line-height: 35px !important;
+    text-align: center;
+}
+input.emailBox {
+	margin-left: 0;
+	width: 72%;
+}
+.form {
+	margin: 10% 0; text-align:center
+}
+.middlePart h2 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 30px;
+}
+.mob2 {
+	margin: 0 !important; max-width:325px; width:100%;
+}
+.mobRite {
+	float: left;
+	margin-top: 40px;
+	width: 100%;
+}
+.myOders .mobleft {
+	margin-left: 24px !important;
+	width: 82%;
+}
+.myOders {
+	float: left;
+	height: auto;
+	margin-top: 10% !important;
+}
+.myOders .mobleft {
+	margin-left: 24px !important;
+	margin-top: 5%;
+	text-align: center
+}
+.myOders .mob2 {
+	margin: 10% 0 0 !important;
+	position: relative;
+}
+.myOders .mobleft span {
+	padding-bottom: 10%
+}
+.socialIcons {
+	width: 100%;
+	margin-top: 4%
+}
+.ourVision p, .ourVision span {
+	width: 90%;
+	padding-top: 8%;
+}
+.socialIcons {
+	width: 97%
+}
+.earlyAccess {
+	background: #1c1d33 !important;
+	height: 150px;
+}
+.earlyAccess p {
+	font-size: 120%;
+	padding-top: 1%;
+}
+.footerForm {
+	width: 90%;
+}
+.footerForm > input {
+	padding-left: 24px;
+	width: 64%;
+}
+.footerForm > input.sendBtn {
+	font-size: 100%;
+	text-align: left
+}
+.resp {
+	height: auto;
+	padding: 0;
+	width: 95%;
+}
+input.sentBtn {
+	margin-left: 0px !important
+}
+.mobRite p, .myOders .mobleft span {
+	width: 100%
+}
+}
+ @media all and (min-width: 481px) and (max-width: 800px) {
+	 .socialIcons a img {
+    float: left;
+    height: auto;
+    width: 45%; max-width:195px;
+}
+	 	.hide { display:none !important}
+
+	 .pinkResp { max-width:236px; margin:10% auto; padding-top:10% !important}
+	.processResp { width:100%; height:auto; max-width:210px; margin:0 auto}
+
+	 .formBox h2, h3 { text-align:left !important}	
+	 	.logaNavBox { margin-top:20px;}
+
+	 .google { width:47%;}
+	 .store { width:55% !important}
+	 	.form { margin:10% 0}
+
+	 	.buttonHow{ width:40%;}
+
+	 	.middlePart > img {
+    display: block;
+    margin: 0 auto; width:100%
+}
+	 .formBox h3 img {
+    display: block;
+    margin: 0 auto;
+}
+	 
+
+.headerCenterPart {
+	margin-top: 0
+}
+.wrapper, .mainPart, .header, .headerCenterPart, .nav, .formBox, .form, .earlyAccess, .logaNavBox, .secureResp {
+	box-sizing: border-box;
+	height: auto;
+	padding: 0 5px;
+	width: 100%;
+}
+.resplogo {
+    display: block;
+    margin: 0 auto 0 3%;
+}
+.headerImg {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+ul.nav {
+	float: left;
+	margin: 0 auto;
+	width: 100% !important;
+}
+ul.nav li {
+	background: #81c99b none repeat scroll 0 0;
+	display: inline-block;
+	margin: 1% 0;
+	text-align: center;
+	width: 32.7%;
+}
+ul.nav li a {
+	text-align: center
+}
+ul.nav li a:hover {
+	background: #e2786a none repeat scroll 0 0;
+	color: #000;
+	opacity: 9;
+}
+.formBox {
+	margin-top: 10%;
+}
+.formBox h3 {
+	text-align: center;
+}
+
+.formBox h2 {
+    font-size: 200%;
+    line-height: 35px !important;
+    text-align: center;
+}
+input.emailBox {
+	margin-left: 0;
+	width: 68%;
+}
+input.sentBtn {
+	margin-left: 0px !important
+}
+.form {
+	margin-top: 2%;
+	text-align: center
+}
+.form span {
+	display: block;
+	margin-bottom: 4% !important;
+}
+.middlePart h2 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 30px;
+}
+.mob2 {
+	display: block;
+	float: none;
+	height: auto;
+	margin: 0 auto;
+	max-width: 325px;
+	width: 100%;
+}
+.mobRite {
+	float: left;
+	margin-top: 40px;
+	width: 100%;
+}
+.mobRite p, .mobRite span {
+	margin: 0 auto;
+	text-align: center;
+}
+.mobRite > img {
+	display: block;
+	margin: 0 auto;
+}
+.myOders .mobleft {
+	margin-left: 24px !important;
+	width: 82%;
+}
+.myOders {
+	float: left;
+	height: auto;
+	margin-top: 10% !important;
+}
+.myOders .mobleft {
+	margin-left: 0 !important;
+	margin-top: 3%;
+	width: 100%;
+}
+.mobleft > img {
+	display: block;
+	margin: 0 auto;
+}
+.myOders .mobleft p, .mobleft span {
+	text-align: center
+}
+.myOders .mobleft span {
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.myOders .mob2 {
+	height: auto;
+	margin: 0 auto;
+	max-width: 286px;
+	position: relative;
+	top: 50px !important;
+	width: 100%;
+}
+.socialIcons {
+	width: 50%
+}
+.earlyAccess {
+	background: url("images/footerBg.jpg") no-repeat scroll 0 0, #1c1d33 !important;
+	min-height: 150px;
+}
+.earlyAccess p {
+	font-size: 120%;
+	padding-top: 1%;
+}
+.footerForm {
+	width: 90%;
+}
+.footerForm > input {
+	padding-left: 24px;
+	width: 64%;
+}
+}
