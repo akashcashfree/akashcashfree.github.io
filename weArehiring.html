@@ -17,11 +17,11 @@
   <link href="fonts/webfontkit-20150903-093607/specimen_files/grid_12-825-55-15.css" rel="stylesheet" type="text/css" />
   <link href="fonts/webfontkit-20150903-093607/stylesheet.css" rel="stylesheet" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300italic,100italic,100,400italic,900,900italic,300,500italic,700italic' rel='stylesheet' type='text/css'>
-  
-  
-    <link href="ddmenu.css" rel="stylesheet" type="text/css" />
-    <script src="ddmenu.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="mobileMenu.css"/>
+  <link rel="stylesheet" href="fonts/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
 
+
+  
   <style media="screen">
 .container {
 	width: 431px;
@@ -74,15 +74,15 @@
 <div class="wrapper">
     <div class="mainPart">
     <div class="weArehiringheader">
-        <div class="logaNavBox"> <a href="/"><img src="images/logo.png" alt="logo" border="0" class="logo resplogo" width="97" height="auto" /></a>
-        <nav id="ddmenu2">
-    <div class="menu-icon"></div>
-    <ul class="nav">
-            <li><a href="#">Blog</a></li>
-            <li><a href="weArehiring.html">We Are Hiring</a></li>
-            <li><a class="last" href="forbusiness.html">For business</a></li>
-          </ul>
-</nav>
+        <div class="logaNavBox"> <a href="index.html"><img src="images/logo.png" alt="logo" border="0" class="logo resplogo" width="97" height="auto" /></a>
+         <nav>
+			<a href="#" id="menu-icon" style="margin-bottom:80px;"></a>
+			<ul class="nav">
+				<li><a href="#" class="current">Blog</a></li>
+                <li><a href="weArehiring.html">We Are Hiring</a></li>
+                <li><a href="forbusiness.html" class="last">For Businesses</a></li>
+			</ul>
+		</nav>
       </div>
         <div class="headerCenterPart">
         <div class="formBox">
@@ -218,9 +218,9 @@
             <input name="btn" type="button" value="SEND" class="sendBtn" />
           </div>
       </div>
-        <div class="footerBottom"> <img src="images/footerLogo.jpg" alt="logo" width="27" height="auto" border="0"  />
+        <div class="footerBottom"> <a href="index.html"><img src="images/footerLogo.jpg" alt="logo" width="27" height="auto" border="0"  /></a>
         <ul class="navFooter">
-            <li><a href="#">Blog</a></li>
+          <li><a href="#">Blog</a></li>
             |
             <li><a href="#" class="active">We are hiring</a></li>
             |
@@ -230,7 +230,13 @@
         
          <br /><br />No. 269, 18th D Main Road, Koramangala 6 Block, Bengaluru 560095
         </p>
-        <div class="socials"> <a href="#"><img src="images/fb.jpg" width="15" height="17" border="0" alt="Facebook" /></a> <a href="#"><img src="images/googlePlus.jpg" width="15" height="17" border="0" alt="Google+" /></a> <a href="#"><img src="images/tweet.jpg" width="15" height="17" border="0" alt="Twitter" /></a> <a href="#"><img src="images/linkdin.jpg" width="15" height="17" border="0" alt="Linkedin" /></a> </div>
+        <div style="width:100%;">
+          <div class="socials">
+          	  <a href="#"><div class="social"><div><i class="fa fa-facebook"></i></div></div></a>
+              <a href="#"><div class="social"><div><i class="fa fa-twitter"></i></div></div></a>
+              <a href="#"><div class="social"><div><i class="fa fa-linkedin"></i></div></div></a>
+                <a href="#"><div class="social"><div><i class="fa fa-google-plus-square"></i></div></div></a>          </div>
+          </div>
         <p>All rights reserved 2015</p>
       </div>
       </div>

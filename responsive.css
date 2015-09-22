@@ -1,10 +1,11 @@
-@charset "utf-8";
+
 @media all and (min-width:100px) and (max-width: 480px) {
 	.socialIcons a img {
     float: left;
     height: auto;
     width: 45%; max-width:195px;
 }
+ul.homeNav li { text-align:left}
 
 .pinkResp { max-width:236px; margin:10% auto; padding-top:10% !important}
 	.processResp { width:100%; height:auto; max-width:210px; margin:0 auto}
@@ -47,10 +48,11 @@
 	padding-top: 50px;
 }
 ul.nav li {
-	background: #81c99b none repeat scroll 0 0;
-	display: block;
-	margin: 1% 0;
-	text-align: center;
+    background: #81c99b none repeat scroll 0 0;
+    border-bottom: 1px solid #69b284;
+    display: block;
+    margin: 0;
+    text-align: center;
 }
 ul.nav li a:hover {
 	background: #e2786a none repeat scroll 0 0;
@@ -58,11 +60,11 @@ ul.nav li a:hover {
 	opacity: 9;
 }
 .formBox {
-	margin-top: 10%;
+	margin-top: 7%;
 }
 
-.formBox h2 {
-    font-size: 179%;
+.formBox h2, h3 {
+    font-size: 250%;
     line-height: 35px !important;
     text-align: center;
 }
@@ -91,10 +93,11 @@ input.emailBox {
 	width: 82%;
 }
 .myOders {
-	float: left;
+	float: left; height:760px !important;
 	height: auto;
 	margin-top: 10% !important;
 }
+
 .myOders .mobleft {
 	margin-left: 24px !important;
 	margin-top: 5%;
@@ -104,8 +107,9 @@ input.emailBox {
 	margin: 10% 0 0 !important;
 	position: relative;
 }
+
 .myOders .mobleft span {
-	padding-bottom: 10%
+	padding-bottom: 10%; font-size:11px !important;
 }
 .socialIcons {
 	width: 100%;
@@ -124,7 +128,7 @@ input.emailBox {
 }
 .earlyAccess p {
 	font-size: 120%;
-	padding-top: 1%;
+	padding-top: 3%;
 }
 .footerForm {
 	width: 90%;
@@ -148,8 +152,15 @@ input.sentBtn {
 .mobRite p, .myOders .mobleft span {
 	width: 100%
 }
+	 .footerBottom > a img { margin:5% auto}
+	 .socials { width:47%;}
+
 }
  @media all and (min-width: 481px) and (max-width: 800px) {
+	 .socials { width:33%;}
+	 .footerBottom > a img { margin:5% auto}
+	 ul.homeNav { width:70%;}
+	 ul.homeNav li { text-align:left}
 	 .socialIcons a img {
     float: left;
     height: auto;
@@ -160,7 +171,6 @@ input.sentBtn {
 	 .pinkResp { max-width:236px; margin:10% auto; padding-top:10% !important}
 	.processResp { width:100%; height:auto; max-width:210px; margin:0 auto}
 
-	 .formBox h2, h3 { text-align:left !important}	
 	 	.logaNavBox { margin-top:20px;}
 
 	 .google { width:47%;}
@@ -225,8 +235,8 @@ ul.nav li a:hover {
 	text-align: center;
 }
 
-.formBox h2 {
-    font-size: 200%;
+.formBox h2, h3  {
+    font-size: 250%;
     line-height: 35px !important;
     text-align: center;
 }

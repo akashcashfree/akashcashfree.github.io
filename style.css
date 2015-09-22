@@ -1,6 +1,6 @@
 
-html,body {  font-size:12px; background:#FFF; color:#8d8d8d; font-family:'roboto'; }
-* { margin:0px; padding:0px;}
+html,body {  font-size:12px; background:#FFF; color:#8d8d8d; font-family:'roboto'; outline:none; border:none; outline:none }
+* { margin:0px; padding:0px; outline:0}
 ul.homeNav {
     list-style-type: none;
     margin: 10px auto 0;
@@ -9,7 +9,7 @@ ul.homeNav {
 }
 ul.homeNav li {
     background: rgba(0, 0, 0, 0) url("images/greenCircleTrans.png") no-repeat scroll 1px 12px;
-    color: #fff;
+    color: #9a9aa5;
     display: block;
     font-size: 17px;
     padding: 0 25px;
@@ -62,7 +62,7 @@ input.sentBtn {
 .formBox { float:left; margin:150px 0 0 0;  width:75%;}
 .formBox2 {float:none; margin:100px auto}
 .formBox h2, h3 {    color: #fff;    font-size: 40px;    font-weight: normal;    line-height: 44px;}
-.formBox h3 { font-size:19px !important; margin:10px 0;}
+.formBox h3 { font-size:19px !important; margin:10px 0; color:#9a9aa5}
 
 .form {
     float: left;
@@ -174,7 +174,7 @@ input.sentBtn {
 .footerForm > input {    border: medium none;    border-radius: 35px 0 0 35px;      font-size: 19px;    height: 70px;    padding-left: 40px;    width: 68%;}
 .footerForm > input.sendBtn {    background: #81c998 none repeat scroll 0 0;    border-radius: 0 35px 35px 0;    color: #fff;    float: right;    height: 72px;    padding-right: 38px;    width: 25%;}
 
-.footerBottom > img {    display: block;    margin: 56px auto 10px;}
+.footerBottom > a img {    display: block;    margin: 56px auto 10px;}
 
 ul.navFooter {    list-style-type: none;    text-align: center;}
 ul.navFooter li { display:inline-block; }
@@ -194,12 +194,10 @@ ul.navFooter li a:focus { color:#b2aeb3; opacity:.5}
 .greenColor { color:#81c998; text-decoration:none}
 
 .socials {
-    margin: 20px auto;
+    margin: 20px auto 0;
     text-align: center;
 }
-.socials > a {
-    padding: 5px;
-}
+
 
 
 /*Footer Part End*/
@@ -422,4 +420,64 @@ ul.navFooter li a:focus { color:#b2aeb3; opacity:.5}
 .m-product-gallery .slick-slide .image img {
 	display: block;
 	max-width: 100%!important;
+}
+
+/*---------------------------------------
+   3.23 SOCIAL ICONS SECTION
+-----------------------------------------*/
+
+.socials {
+	padding: 0px 0;
+	color: #fff;
+	overflow: hidden; width:11%;
+}
+.socials a {
+	color: #81c998;
+}
+.social-icons {
+	width: 280px;
+	margin: 0 auto;
+}
+.social {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    height: 40.41px;
+    line-height: 42px;
+    margin: 0;
+    position: relative;
+    transition: all 300ms ease 0s;
+    width: 37px;
+}
+.social:before,
+.social:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	transition: all 300ms;
+}
+.social:before {
+	bottom: 100%;
+	border-bottom: 20.21px solid rgba(255,255,255,0.3);
+}
+.social:after {
+	top: 100%;
+	width: 0;
+	border-top: 20.21px solid rgba(255,255,255,0.3);
+}
+.social div {
+	text-align: center;
+}
+.social:hover {
+	background: #fff;
+	color: #2d2e42;
+}
+.social:hover:before {
+	border-bottom: 20.21px solid #fff;
+}
+.social:hover:after {
+	border-top: 20.21px solid #fff;
 }

@@ -30,7 +30,7 @@
     width: 100%;
 }
 .openPosLeftBox p, h3 {
-    color: #fff;
+    color: #9a9aa5;
     font-size: 23px;
     line-height: 37px;
 }
@@ -93,13 +93,16 @@ input.applyBtn { width:210px; height:55px; background:#7fcba9; font-size:24px; b
 }
 
 @media all and (min-width:100px) and (max-width: 480px) {
+		.openPosRiteBox ul { padding:0 14px}
+
+	.postion > p { padding:0 20px;}
 .cenImg { margin:0 auto}
 .openPos, .openPosLeftBox,   .openPosRiteBox { width:100%; height:auto}
 
 .openPos, .openPosRiteBox { margin:10% 0 0 0}
 .fltRite { float:}
 .container{ width:99% !important;}
-.hiringH2 { margin:5% 0}
+.hiringH2 { margin:0% 0}
 .weArehiringheader { height:auto !important}
 .openPosRiteBox ul li {
     background: rgba(0, 0, 0, 0) url("images/greenCircleTrans.png") no-repeat scroll 1px 14px;
@@ -111,6 +114,9 @@ input.applyBtn { width:210px; height:55px; background:#7fcba9; font-size:24px; b
 }
 
 @media all and (min-width:481px) and (max-width: 800px) {
+	.openPosRiteBox ul { padding:0 14px}
+		.postion > p { padding:0 20px;}
+
 .weArehiringheader { height:auto !important}
 .openPos, .openPosLeftBox,   .openPosRiteBox { width:100%; height:auto}
 

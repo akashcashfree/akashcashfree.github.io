@@ -12,14 +12,13 @@ ul.forBusNav {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    width: 70%;
 }
 ul.forBusNav li {
-    background: rgba(0, 0, 0, 0) url("images/greenCircleTrans.png") no-repeat scroll 1px 6px;
-    color: #fff;
+    background: rgba(0, 0, 0, 0) url("images/greenCircleTrans.png") no-repeat scroll 1px 10px;
+    color: #9a9aa5;
     display: inline-block;
-    font-size: 13px;
-    padding: 3px 25px;
+    font-size: 18px;
+    padding: 3px 20px;
 }
 .forBuniessBox {
 	margin: 152px auto;
@@ -253,10 +252,13 @@ textarea {
 	margin-right: 0 !important
 }
  @media all and (min-width:100px) and (max-width: 480px) {
+	 
+	 .headerForBusiness { height:600px;	width: 100% !important;
+}
 	 .forBuniessBox h3 { line-height:23px !important}
 	 ul.forBusNav li { padding:3px 16px;}
-	 ul.forBusNav { width:100%;}
-.headerForBusiness, .forBuniessBox img,  .pinkBox, .container, .grid li, .popUp, .bigBox, .popUpBtm {
+	 ul.forBusNav { width:76%; text-align:left}
+ .forBuniessBox img,  .pinkBox, .container, .grid li, .popUp, .bigBox, .popUpBtm {
 	width: 100% !important;
 	height: auto !important;
 }
@@ -312,12 +314,13 @@ textarea {
 }
 .forBuniessBox { margin:13px 0}
  @media all and (min-width:481px) and (max-width: 800px) {
-
+ul.forBusNav { width:96%;}	
+		
  .headerForBusiness, .forBuniessBox img, .pinkBox, .container,  .bigBox {
 width:100% !important;
 height:auto !important;
 }
-.forBuniessBox { margin:13px 0}
+.forBuniessBox { margin:13px 0; text-align:left}
 
  .button {
 width:26%;
